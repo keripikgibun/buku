@@ -31,7 +31,7 @@ a {
 }
 /*gita*/
 #header{
-    background-color    : #80b3ff;
+    background-color    : #4682B4;
     clear               : both;
     padding-top         : 6px;
     height              : 10%;
@@ -43,7 +43,7 @@ a {
     color:white;
     display:block;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0 px 0 px;
     text-decoration: none;
 }
 
@@ -58,8 +58,8 @@ a {
 
 input {
     float: right;
-    margin-right: 60px;
-    background-color: #F9B3FF;
+    margin-right: 10px; /*apakah batas heaer dengan dinding laptop*/
+    background-color: #FFFF00;
     border: 2px solid transparent;
     border-radius: 25px;
     font-size: 12px;
@@ -80,13 +80,13 @@ body {
 
 .header {
     overflow: hidden;
-    background-color: #4dc3ff;
+    background-color: #E6E6FA;/*warna header fix this*/
     padding: 15px 10px;
   }
 
   .header a {
     float: left;
-    color:  #4dc3ff;
+    color:  #FFFF00;
     text-align: center;
     padding: 8px;
     text-decoration: none;
@@ -111,7 +111,7 @@ body {
   }
 
   .header a.active {
-    background-color:#000080;
+    background-color:#191970; /*apakah ini bacgrund header*/
     color: white;
   }
 
@@ -164,15 +164,15 @@ input { /*kaca pembesar*/
 /* Bagian Atas Awal*/
 .top-wrapper {
   padding: 180px 0 100px 0; /*membuat backgound pindah posisi*/
-  background-image: url(https://i.imgur.com/u3vISQ1h.jpg);
+  background-image: url(https://i.imgur.com/HXnKC7vh.jpg);
   background-size: cover;/* cover adalah kata untuk membuat gambar menyesuaikan layar*/
-  color: black;
+  color: absolute;
   text-align: center;
 }
 /* Back Atas Akhir*/
 
 .top-wrapper h1 {
-  opacity: 0.8; /*membuat Buku Doktor Title jadi Opacity tertentu*/
+  opacity: 0.9; /*membuat Buku Doktor Title jadi Opacity tertentu*/
   font-size: 45px;
   letter-spacing: 5px;
   margin-bottom: 10px;
@@ -225,7 +225,7 @@ input { /*kaca pembesar*/
 header {
   height: 88 px;
   width: 100%;
-  background-color: rgba(109, 232, 255, 0.9); /*backgound header*/
+  background-color: rgba(34, 139, 35, 0.3); /*backgound header dibelakang logo2 itu*/
   position :fixed;
   top: 0;
   z-index: 80;
@@ -255,7 +255,7 @@ header {
 }
 
 .header-right a:hover {
-  background-color: rgba(16, 84, 14, 0.3);
+  background-color: rgba(178, 34, 33, 0.3);
 }
 
 /*bagian akhir dari BAGIAN ATAS*/
@@ -276,7 +276,7 @@ header {
 
 .lesson {
   float: left; /*membuat gambar dari kanan ke kiri*/
-  width: 25%; /*membuat gambar jadi memnuhi dalam persen*/
+  width: 50%; /*membuat gambar jadi memnuhi dalam persen*/
   margin-top: 30px; /*margin atas dari gambar berlian*/
 }
 
