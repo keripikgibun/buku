@@ -80,13 +80,13 @@ body {
 
 .header {
     overflow: hidden;
-    background-color: #E6E6FA;/*warna header fix this*/
+    background-color: #EE3FFEA;/*warna header fix this*/
     padding: 15px 10px;
   }
 
   .header a {
     float: left;
-    color:  #FFFF00;
+    color:  #4216FF;
     text-align: center;
     padding: 8px;
     text-decoration: none;
